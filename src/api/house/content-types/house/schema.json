@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "houses",
+  "info": {
+    "singularName": "house",
+    "pluralName": "houses",
+    "displayName": "House"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "rooms": {
+      "type": "integer"
+    },
+    "bedrooms": {
+      "type": "integer"
+    },
+    "surface": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "caracteristics": {
+      "type": "text"
+    },
+    "facilities": {
+      "type": "text"
+    },
+    "DPE": {
+      "type": "string"
+    },
+    "GES": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
